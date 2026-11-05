@@ -1,0 +1,12 @@
+services:
+  n8n:
+    image: n8nio/n8n:2.46.6
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:5678:5678"
+    environment:
+      TZ: Asia/Ho_Chi_Minh
+      GENERIC_TIMEZONE: Asia/Ho_Chi_Minh
+      N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS: "true"
+    volumes:
+      - ./data:/home/node/.n8n
