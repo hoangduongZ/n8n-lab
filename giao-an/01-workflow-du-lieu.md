@@ -32,7 +32,10 @@
 ## Tự kiểm tra
 
 - Bạn chỉ ra được node nào tạo dữ liệu và node nào biến đổi dữ liệu.
+-> node sau dùng được dữ liệu note trước
 - Bạn phân biệt được giá trị **Fixed** với **Expression**.
+-> expression hỗ trợ giá trị động
 - Bạn giải thích được vì sao công thức dùng $json.unit_price và $json.quantity.
+-> lấy output của node trước $json là lấy data json của node trước
 
 **Tài liệu:** [Edit Fields](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.set/), [cấu trúc dữ liệu](https://docs.n8n.io/data/data-structure/), [tham chiếu dữ liệu trong giao diện](https://docs.n8n.io/data/data-mapping/data-mapping-ui/).
